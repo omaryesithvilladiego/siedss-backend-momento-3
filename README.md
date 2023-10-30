@@ -6,28 +6,28 @@ Requisitos previos
 
 Antes de ejecutar este backend en tu máquina local, asegúrate de tener instalados los siguientes requisitos:
 
-    Node.js: Asegúrate de tener Node.js instalado en tu sistema. Puedes descargarlo desde el sitio web oficial de Node.js.
+Node.js: Asegúrate de tener Node.js instalado en tu sistema. Puedes descargarlo desde el sitio web oficial de Node.js
 
-    Gestor de paquetes npm: npm se instala automáticamente junto con Node.js, por lo que no deberías necesitar instalarlo por separado.
+Gestor de paquetes npm: npm se instala automáticamente junto con Node.js, por lo que no deberías necesitar instalarlo por separado.
 
 Instalación
 
 Siga estos pasos para instalar las dependencias y ejecutar el backend:
 
-    Clona este repositorio en tu máquina local usando el siguiente comando:
+Clona este repositorio en tu máquina local usando el siguiente comando:
+    
     git clone https://tu-repositorio-backend.git
 
-    Navega al directorio del proyecto:
-
+Navega al directorio del proyecto:
 
 
 cd nombre-de-tu-proyecto-backend
 
-    Instala las dependencias utilizando npm:
+Instala las dependencias utilizando npm:
 
 
 
-npm install
+    npm install
 
 Configuración
 
@@ -37,7 +37,7 @@ Ejecución
 Una vez que hayas instalado las dependencias y configurado tus variables de entorno, puedes iniciar el servidor con el siguiente comando:
 
 
-npm start
+    npm start
 
 El servidor se ejecutará en http://localhost:puerto donde "puerto" es el número de puerto que hayas especificado en tus variables de entorno.
 Rutas y Endpoints
