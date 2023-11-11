@@ -5,7 +5,7 @@ require("dotenv").config();
 
 
 const ProyectoSchema = new Schema({
-    nombrePremio: {
+    nombreProyecto: {
         type:String,
         require:true
     },
@@ -21,7 +21,7 @@ const ProyectoSchema = new Schema({
         type:String,
         require:true
     },
-    certificadoResultadoPremoUrl: {
+    certificadoResultadoPremioUrl: {
         type:String,
         require:true
     },
@@ -35,11 +35,13 @@ const ProyectoSchema = new Schema({
         repositorioUcc: {
             type:String
         },
-        
-
     },
     idEstudianteProyecto: {
         type:ObjectId,
+        require:true
+    },
+    estadoPonencia: {
+        type:String,
         require:true
     }
 

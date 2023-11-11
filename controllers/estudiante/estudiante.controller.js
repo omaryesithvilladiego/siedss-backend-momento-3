@@ -62,14 +62,11 @@ exports.create = async (req,res) => {
 
 
     function generarUsuario() {
-        var caracteres = 'abcdefghijklmnopqrstuvwxyz1234567890';
-        var longitud = 8;
-        var usuario = '';
+        
+        var correo = req.body.correoInstitucionalEstudiante;
+
+        var usuario = correo.slice(0,-17)
       
-        for (var i = 0; i < longitud; i++) {
-          var indice = Math.floor(Math.random() * caracteres.length);
-          usuario += caracteres[indice];
-        }
       
         return usuario;
       }

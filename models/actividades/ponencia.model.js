@@ -45,6 +45,10 @@ const PonenciaSchema = new Schema({
         type:String ,
         require:true
     },
+    estadoPonencia: {
+        type:String ,
+        require:true
+    }
     
 
    

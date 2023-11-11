@@ -43,6 +43,7 @@ exports.create = async (req,res) => {
         imagenMemoriasUrlPonencia: req.body.imagenMemoriasUrlPonencia,
         fechaPonencia: req.body.fechaPonencia,
         idEstudiantePonencia: req.body.idEstudiantePonencia,
+        estadoPonencia: 'Pendiente'
 
     })
 
